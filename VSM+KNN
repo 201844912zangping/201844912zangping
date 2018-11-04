@@ -78,6 +78,7 @@ def Vsm(prelist1,prelist2): #用向量表示文件数据
         
 def KNN(traindata,trainlabel,testdata,testlabel):#使用KNN分类
     Accuracy=0
+    k=5
     #求余弦 = AB/|A|*|B|
     for i in traindata:  #求训练集数据的模
         mosum = 0
